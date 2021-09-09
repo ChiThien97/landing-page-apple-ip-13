@@ -84,13 +84,13 @@ body section.main .block-products .block-products__tabs .tab-item {
 body section.main .block-products .block-products__tabs .tab-item.active {
   border: 3px solid #E16C00;
 }
-body section.main .block-products .block-products__tabs #ip13mini, body section.main .block-products .block-products__tabs #ip13 {
+body section.main .block-products .block-products__tabs .ip13mini-ip13 {
   background: url("../img/iphone13-13mini.png");
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.85);
 }
-body section.main .block-products .block-products__tabs #ip13pro, body section.main .block-products .block-products__tabs #ip13promax {
+body section.main .block-products .block-products__tabs .ip13pro-ip13promax {
   background: url("../img/iphone13pro-13promax.png");
   background-repeat: no-repeat;
   background-size: cover;

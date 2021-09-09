@@ -53,22 +53,34 @@
             <div class="fearture-image col-md-5 p-0">
                 <img src="./img/img-side.png" alt="">
             </div>
-            <div class="content col-md-7">
-                <p class="product-title">iPhone 13 mini</p>
+            <div  id="ip13mini" class="content col-md-7">
+                <p class="product-title">iPhone 13 Mini</p>
+                <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
+            </div>
+            <div id="ip13" class="content col-md-7 d-none">
+                <p class="product-title">iPhone 13</p>
+                <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
+            </div>
+            <div id="ip13pro" class="content col-md-7 d-none">
+                <p class="product-title">iPhone 13 Pro</p>
+                <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
+            </div>
+            <div id="ip13promax" class="content col-md-7 d-none">
+                <p class="product-title">iPhone 13 Pro Max</p>
                 <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
             </div>
         </div>
         <div class="block-products__tabs text-center d-flex justify-content-between mt-3">
-            <div class="tab-item active" id="ip13mini">
-                iPhone 13 mini
+            <div class="ip13mini-ip13 tab-item active tab-ip13mini" onclick="switchTabProducts('ip13mini')">
+                iPhone 13 Mini
             </div>
-            <div class="tab-item" id="ip13">
+            <div class="ip13mini-ip13 tab-item tab-ip13" onclick="switchTabProducts('ip13')">
                 iPhone 13
             </div>
-            <div class="tab-item" id="ip13pro">
+            <div class="ip13pro-ip13promax tab-item tab-ip13pro" onclick="switchTabProducts('ip13pro')">
                 iPhone 13 Pro
             </div>
-            <div class="tab-item" id="ip13promax">
+            <div class="ip13pro-ip13promax tab-item tab-ip13promax" onclick="switchTabProducts('ip13promax')">
                 iPhone 13 Pro Max
             </div>
         </div>
@@ -88,7 +100,8 @@
                         Mong chờ gì từ sự kiện tháng 9 của Apple: iPhone 13, iOS 15 được phát hành và còn gì nữa?
                     </div>
                     <div class="content-text mt-2">
-                        Chúng ta hiện đã chính thức bước qua tháng 9 nên sự ra mắt của các sản phẩm mùa thu của Apple đã gần hơn bao giờ hết.
+                        Chúng ta hiện đã chính thức bước qua tháng 9 nên sự ra mắt của các sản phẩm mùa thu của Apple đã
+                        gần hơn bao giờ hết.
                     </div>
                 </div>
             </a>
@@ -126,6 +139,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="./js/index.js"></script>
 
 </body>
 </html>
