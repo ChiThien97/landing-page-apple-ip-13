@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Apple iPhone 13</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<section class="header">
+    <div class="background-header"></div>
+</section>
+<section class="main">
+    <div class="block-video-stream container text-center mt-3">
+        <iframe src="https://www.youtube.com/embed/EvGOlAkLSLw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </div>
+    <div class="block-subscribe-all container text-center mt-3 mx-auto py-3 px-5">
+        <div class="block-subscribe-all__title mb-2 text-danger">
+            <p class="m-0 font-weight-bold">ĐĂNG KÝ NHẬN THÔNG TIN GIÁ BÁN VÀ NGÀY VỀ </p>
+            <i>(hàng chính hãng sớm nhất)</i>
+        </div>
+        <form class="block-subscribe-all__form" method="" action="">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                       placeholder="Họ và tên (bắt buộc)">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="phone" aria-describedby="emailHelp"
+                       placeholder="Số điện thoại (bặt buộc)">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                       placeholder="Email (để nhận phản hồi qua mail)">
+            </div>
+            <button type="submit" class="btn btn-danger">Đăng ký nhận tin</button>
+            <i class="form-text text-muted">(Dành cho những người đầu tiên muốn biết thông tin)</i>
+        </form>
+    </div>
+    <div class="block-products container mt-3 mx-auto">
+        <div class="block-products__title text-center">
+            <p class="m-0">SẢN PHẨM</p>
+        </div>
+        <div class="block-products__main text-center m-auto row mt-3">
+            <div class="fearture-image col-md-5 p-0">
+                <img src="./img/img-side.png" alt="">
+            </div>
+            <div class="content col-md-7">
+                <p class="product-title">iPhone 13 mini</p>
+                <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
+            </div>
+        </div>
+        <div class="block-products__tabs text-center d-flex justify-content-between mt-3">
+            <div class="tab-item active" id="ip13mini">
+                iPhone 13 mini
+            </div>
+            <div class="tab-item" id="ip13">
+                iPhone 13
+            </div>
+            <div class="tab-item" id="ip13pro">
+                iPhone 13 Pro
+            </div>
+            <div class="tab-item" id="ip13promax">
+                iPhone 13 Pro Max
+            </div>
+        </div>
+    </div>
+    <div class="block-news-outer container-fluid mt-3 p-3">
+        <div class="block-news container mx-auto row">
+            <div class="news-fearture__header d-flex justify-content-between align-items-center col-md-7">
+                <div class="bg-danger px-4 py-1 font-weight-bold text-white">TIN TỨC LIÊN QUAN</div>
+                <a class="font-italic" href="#">Xem thêm tin tức</a>
+            </div>
+            <a href="#" class="news-fearture col-md-7">
+                <div class="news-fearture__image mt-3">
+                    <img src="./img/news1.png" alt="">
+                </div>
+                <div class="news-fearture__content">
+                    <div class="content-title">
+                        Mong chờ gì từ sự kiện tháng 9 của Apple: iPhone 13, iOS 15 được phát hành và còn gì nữa?
+                    </div>
+                    <div class="content-text mt-2">
+                        Chúng ta hiện đã chính thức bước qua tháng 9 nên sự ra mắt của các sản phẩm mùa thu của Apple đã gần hơn bao giờ hết.
+                    </div>
+                </div>
+            </a>
+            <div class="news-list col-md-5 d-flex flex-column justify-content-between">
+                <a href="#" class="news-list__item d-flex mt-3">
+                    <div class="item-image">
+                        <img src="./img/news2.png" alt="">
+                    </div>
+                    <div class="pl-2 item-title">
+                        8 nâng cấp được kỳ vọng sẽ có mặt trên bộ “tứ” iPhone 13
+                    </div>
+                </a>
+                <a href="#" class="news-list__item d-flex">
+                    <div class="item-image">
+                        <img src="./img/news3.png" alt="">
+                    </div>
+                    <div class="pl-2 item-title">
+                        Tất tần tật những thông tin “hot” về iPhone 13 series mà iFan cần nắm
+                    </div>
+                </a>
+                <a href="#" class="news-list__item d-flex">
+                    <div class="item-image">
+                        <img src="./img/news4.png" alt="">
+                    </div>
+                    <div class="pl-2 item-title">
+                        Trên tay mẫu thiết kế iPhone 13 series tại Việt Nam: Thiết kế quen thuộc, camera to hơn
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
