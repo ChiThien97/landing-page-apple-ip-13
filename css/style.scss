@@ -17,7 +17,7 @@ body {
     .block-video-stream {
       height: 516px;
 
-      iframe {
+      #my_video_1{
         width: 900px;
         height: 516px;
         border-radius: 15px;
@@ -164,7 +164,7 @@ body {
           .news-list__item{
             position: relative;
             color: #F8F8F8;
-            &:after{
+            &:not(:last-child):after{
               content: "";
               border-top: 1px solid #767676;
               position: absolute;

@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           crossorigin="anonymous">
+    <link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -18,27 +19,32 @@
 </section>
 <section class="main">
     <div class="block-video-stream container text-center mt-3">
-        <iframe src="https://www.youtube.com/embed/EvGOlAkLSLw"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+        <video autoplay id="my_video_1" class="video-js vjs-fluid vjs-default-skin p-0 m-auto" controls preload="auto"
+               data-setup='{}'>
+            <source src="https://96831e00c1.vws.vegacdn.vn/live/_definst_/stream_1_1d958/playlist.m3u8"
+                    type="application/x-mpegURL">
+        </video>
     </div>
     <div class="block-subscribe-all container text-center mt-3 mx-auto py-3 px-5">
         <div class="block-subscribe-all__title mb-2 text-danger">
             <p class="m-0 font-weight-bold">ĐĂNG KÝ NHẬN THÔNG TIN GIÁ BÁN VÀ NGÀY VỀ </p>
             <i>(hàng chính hãng sớm nhất)</i>
         </div>
-        <form class="block-subscribe-all__form" method="" action="">
-            <div class="form-group">
-                <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
-                       placeholder="Họ và tên (bắt buộc)">
+        <form class="block-subscribe-all__form" id="my-form">
+            <div id="submit-success" class="font-weight-bold d-none">
+                Cảm ơn bạn đã đăng ký nhận thông tin về hàng Siêu phẩm Apple 2021. Chúng tôi sẽ liên lạc với bạn trong
+                thời gian sớm nhất.
             </div>
             <div class="form-group">
-                <input type="text" class="form-control" id="phone" aria-describedby="emailHelp"
-                       placeholder="Số điện thoại (bặt buộc)">
+                <input name="entry.1409746844" type="text" class="form-control" id="name"
+                       placeholder="Họ và tên (bắt buộc)" required>
             </div>
             <div class="form-group">
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                <input name="entry.1122308509" type="text" class="form-control" id="phone"
+                       placeholder="Số điện thoại (bắt buộc)" required>
+            </div>
+            <div class="form-group">
+                <input name="entry.407026297" type="email" class="form-control" id="email"
                        placeholder="Email (để nhận phản hồi qua mail)">
             </div>
             <button type="submit" class="btn btn-danger">Đăng ký nhận tin</button>
@@ -53,7 +59,7 @@
             <div class="fearture-image col-md-5 p-0">
                 <img src="./img/img-side.png" alt="">
             </div>
-            <div  id="ip13mini" class="content col-md-7">
+            <div id="ip13mini" class="content col-md-7">
                 <p class="product-title">iPhone 13 Mini</p>
                 <button class="btn-subscribe">ĐĂNG KÝ NHẬN TIN</button>
             </div>
@@ -133,12 +139,29 @@
             </div>
         </div>
     </div>
+    <div class="block-comments container mt-3 p-3">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+                     data-width="" data-numposts="5"></div>
+                <div id="fb-root"></div>
+            </div>
+            <div class="col-md-6">
+                <div class="zalo-comment-plugin" data-appid="4004804715177581190" data-size="5" data-href=""></div>
+            </div>
+        </div>
+    </div>
 </section>
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0&appId=567063744338537&autoLogAppEvents=1"
+        nonce="4413GcNI"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/video.js/dist/video.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
 <script src="./js/index.js"></script>
 
 </body>
