@@ -730,6 +730,7 @@
     background: aliceblue;
     color: #416485;
     position: relative;
+    font-size: 16px;
   }
   body section.main .block-comments button.btn-comment.active {
     background: #CCE5FF;
