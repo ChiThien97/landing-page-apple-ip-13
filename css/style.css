@@ -639,7 +639,7 @@
     width: 48%;
     padding: 2em 0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
     color: #FFF;
     margin-bottom: 15px;
   }
@@ -704,6 +704,12 @@
   body section.main .block-news-outer .block-news .news-list .news-list__item {
     position: relative;
     color: #F8F8F8;
+  }
+  body section.main .block-news-outer .block-news .news-list .news-list__item .item-image img {
+    width: 100%;
+  }
+  body section.main .block-news-outer .block-news .news-list .news-list__item .item-title {
+    width: 70%;
   }
   body section.main .block-news-outer .block-news .news-list .news-list__item:not(:last-child) {
     margin-bottom: 2rem;
