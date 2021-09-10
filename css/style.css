@@ -632,6 +632,7 @@
   }
   body section.main .block-products .block-products__tabs {
     flex-flow: wrap;
+    padding: 0 15px;
   }
   body section.main .block-products .block-products__tabs .tab-item {
     width: 48%;
