@@ -20,6 +20,9 @@ var player = videojs('my_video_1');
 player.play();
 
 $(document).ready(function ($) {
+    setTimeout(function(){
+        $('#zalo').hide()
+        }, 3000);
     $('#my-form').submit(function (e) {
         e.preventDefault();
         var name = $('#name').val().trim();
