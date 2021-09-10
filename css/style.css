@@ -88,12 +88,14 @@ body section.main .block-products .block-products__tabs .ip13mini-ip13 {
   background: url("../img/iphone13-13mini.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.85);
 }
 body section.main .block-products .block-products__tabs .ip13pro-ip13promax {
   background: url("../img/iphone13pro-13promax.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   box-shadow: inset 0 0 0 2000px rgba(54, 54, 54, 0.85);
 }
 body section.main .block-news-outer {
