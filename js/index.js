@@ -40,6 +40,7 @@ $(document).ready(function ($) {
             $('#name').addClass('d-none');
             $('#phone').addClass('d-none');
             $('#email').addClass('d-none');
+            $('#series').addClass('d-none');
             $('i.form-text').addClass('d-none');
             $('#my-form>button').addClass('d-none');
             $('#submit-success').removeClass('d-none');
