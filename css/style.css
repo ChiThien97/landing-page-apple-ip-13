@@ -134,5 +134,29 @@ body section.main .block-news-outer .block-news .news-list .news-list__item:not(
   left: 0;
   width: 100%;
 }
+body section.main .block-comments {
+  background: #F2F9FF;
+}
+body section.main .block-comments button.btn-comment:first-child {
+  border-radius: 15px 0 0 15px;
+}
+body section.main .block-comments button.btn-comment:last-child {
+  border-radius: 0 15px 15px 0;
+}
+body section.main .block-comments button.btn-comment {
+  border: 1px solid #B8DAFF;
+  border-radius: 15px;
+  background: aliceblue;
+  color: #416485;
+  position: relative;
+}
+body section.main .block-comments button.btn-comment.active {
+  background: #CCE5FF;
+}
+body section.main .block-comments button.btn-comment img {
+  margin-right: 1rem;
+  width: 2rem;
+  border-radius: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */

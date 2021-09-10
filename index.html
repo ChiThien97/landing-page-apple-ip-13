@@ -140,13 +140,23 @@
         </div>
     </div>
     <div class="block-comments container mt-3 p-3">
+        <div class="d-flex justify-content-center">
+            <button data-source="facebook" class="btn btn-comment d-flex justify-content-between align-items-center active">
+                <img src="./img/Facebook.png" width="50px" alt="">
+                Bình luận Facebook
+            </button>
+            <button data-source="zalo" class="btn btn-comment d-flex justify-content-between align-items-center">
+                <img src="./img/zalo.png" width="50px" alt="">
+                Bình luận Zalo
+            </button>
+        </div>
         <div class="row">
-            <div class="col-md-6">
+            <div id="facebook" class="col-md-12 text-center mt-3">
                 <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
                      data-width="" data-numposts="5"></div>
                 <div id="fb-root"></div>
             </div>
-            <div class="col-md-6">
+            <div id="zalo" class="col-md-12 text-center mt-3 d-none">
                 <div class="zalo-comment-plugin" data-appid="4004804715177581190" data-size="5" data-href=""></div>
             </div>
         </div>

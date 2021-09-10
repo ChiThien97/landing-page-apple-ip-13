@@ -4,6 +4,17 @@ function switchTabProducts(id) {
     $('.content').addClass('d-none')
     $('#' + id).removeClass('d-none');
 }
+$('.btn-comment').click(function(){
+    $(this).addClass('active');
+    $(this).siblings().removeClass('active');
+    if( $(this).attr('data-source')=='facebook'){
+        $('#facebook').show();
+        $('#zalo').hide()
+    }else{
+        $('#facebook').hide();
+        $('#zalo').show()
+    }
+})
 
 var player = videojs('my_video_1');
 player.play();

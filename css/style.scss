@@ -176,5 +176,31 @@ body {
         }
       }
     }
+
+    .block-comments{
+      background: #F2F9FF;
+      button.btn-comment:first-child{
+        border-radius: 15px 0 0 15px;
+      }
+      button.btn-comment:last-child{
+        border-radius: 0 15px 15px 0;
+      }
+      button.btn-comment{
+        border:1px solid #B8DAFF;
+        border-radius: 15px;
+        background: aliceblue;
+        color: #416485;
+        position: relative;
+        &.active{
+          background: #CCE5FF;
+        }
+        img{
+          margin-right: 1rem;
+          width: 2rem;
+          border-radius: 10px;
+        }
+      }
+    }
   }
 }
+
