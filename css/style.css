@@ -320,6 +320,7 @@
   body section.main .block-news-outer .block-news .news-list .news-list__item {
     position: relative;
     color: #F8F8F8;
+    margin-bottom: 1.5rem;
   }
   body section.main .block-news-outer .block-news .news-list .news-list__item:not(:last-child) {
     margin-bottom: 2rem;
