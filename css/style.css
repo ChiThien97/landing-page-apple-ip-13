@@ -364,14 +364,14 @@
     background: #E5E5E5;
   }
   body section.header {
-    min-height: 250px;
+    min-height: 275px;
   }
   body section.header .background-header {
     background: url("../img/banner-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 275px;
   }
   body section.main .block-video-stream {
     height: 412px;
@@ -557,14 +557,14 @@
     background: #E5E5E5;
   }
   body section.header {
-    min-height: 250px;
+    min-height: 130px;
   }
   body section.header .background-header {
     background: url("../img/banner-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 130px;
   }
   body section.main .block-video-stream {
     height: 320px;
@@ -753,14 +753,14 @@
     background: #E5E5E5;
   }
   body section.header {
-    min-height: 250px;
+    min-height: 120px;
   }
   body section.header .background-header {
     background: url("../img/banner-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 250px;
+    height: 120px;
   }
   body section.main .block-video-stream {
     height: 320px;
